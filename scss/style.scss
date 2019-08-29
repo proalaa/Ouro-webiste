@@ -1,0 +1,74 @@
+$bg-color:#333;
+$font-color:#fff;
+$primary-color : #008edf;
+$dark-overlay : rgba(0,0,0,0.7);
+$icon-size : 25px;
+body{
+    background-color:$bg-color;
+    color: $font-color;
+}
+
+.navbar
+{
+    border-bottom: $primary-color 2px solid;
+    opacity: 0.8;
+    
+}
+#home-section
+{
+    
+    background-image:url('../img/home_profile.jpg'); 
+    min-height: 700px;
+    background-size: cover;
+    background-attachment:fixed; 
+
+
+.dark-overlay
+{
+    background-color: $dark-overlay;
+    position: absolute;
+    min-height: 700px;
+    width: 100%;
+}
+.home-inner
+{
+    padding-top: 150px;
+}
+
+.card-form
+{
+    opacity: 0.8;
+}
+.fa
+{
+    font-size: $icon-size;
+    color: $primary-color;
+    padding: 4px;
+    background-color:#fff;
+    border-radius: 5px;
+}
+}
+
+#explore-body-section
+{
+.fa
+{
+    padding: 4px;
+    background-color:#333;
+    color: #ffffff;
+    font-size: $icon-size;
+    border-radius: 5px;
+
+}
+
+}
+#create-body-section{
+    .fa
+    {
+        padding: 5px;
+        background-color:#fff;
+        color: $primary-color;
+        font-size: $icon-size; 
+        border-radius: 5px;
+    }
+}
